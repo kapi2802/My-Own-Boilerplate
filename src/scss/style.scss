@@ -1,0 +1,31 @@
+$font-color: #fff;
+
+body
+{
+    padding-top: 150px;
+    background-color: #333;
+    color: $font-color;
+    font-family: lato;
+    overflow: hidden;
+}
+
+h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    transition: all .5s ease;
+}
+
+h1:hover
+{
+    color: #123456;
+    transform: translateX(150px);
+}
+
+p
+{
+    text-align: justify;
+    width: 800px;
+    margin: 20px auto;
+}
