@@ -1,3 +1,5 @@
+@import "0-tools/normalize.scss";
+
 $font-color: #fff;
 
 body
@@ -7,6 +9,7 @@ body
     color: $font-color;
     font-family: lato;
     overflow: hidden;
+    display: block;
 }
 
 h1
